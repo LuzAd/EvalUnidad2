@@ -4,6 +4,7 @@ import RegisterUserView from '@/components/icons/RegisterUser.vue'
 import DashboardView from './../components/icons/Dashboard.vue'
 import Home from '@/components/icons/Home.vue'
 import Persona from '@/components/icons/Persona.vue'
+import PiePagina from '@/components/icons/PiePagina.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,7 +25,11 @@ const router = createRouter({
       component: DashboardView,
       children:[
         {path:'/home', name: 'home', component:Home},
-        {path:'/personas', name: 'personas', component: Persona}
+        {path:'/personas', name: 'personas', component: Persona},
+        {path:'/piepagina', name: 'piepagina', component: PiePagina},
+
+        
+
       ]
     },
   ]
