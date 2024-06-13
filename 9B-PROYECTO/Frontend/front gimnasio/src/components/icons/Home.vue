@@ -1,5 +1,5 @@
 <template>
-    <h1 class="text-2xl xl:text-3xl font-extrabold m-8">Dashboard de la aplicación</h1>
+    <h1 class="text-2xl xl:text-3xl font-extrabold m-5">Dashboard de la aplicación</h1>
 <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
     <div class="grid grid-cols-3 gap-4 mb-4">
        <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
@@ -100,3 +100,13 @@
     </div>
     </div>
 </template>
+
+
+<script>
+import PiePagina from './PiePagina.vue'
+export default {
+  components: {
+    PiePagina
+  }
+}
+</script>
