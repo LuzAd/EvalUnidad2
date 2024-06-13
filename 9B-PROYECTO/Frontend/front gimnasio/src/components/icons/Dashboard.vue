@@ -514,7 +514,19 @@ handyman
       <h1>Bienvenido al sistemA</h1>
       
     </div>
+       
     
   </div>
+  
   <router-view/>
+  <PiePagina></PiePagina>
 </template>
+<script>
+import PiePagina from './PiePagina.vue'
+export default {
+  components: {
+    PiePagina
+  }
+}
+</script>
+

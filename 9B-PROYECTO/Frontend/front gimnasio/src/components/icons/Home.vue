@@ -98,15 +98,7 @@
           </p>
        </div>
     </div>
+
     </div>
 </template>
 
-
-<script>
-import PiePagina from './PiePagina.vue'
-export default {
-  components: {
-    PiePagina
-  }
-}
-</script>
